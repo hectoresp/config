@@ -1,0 +1,5 @@
+[font]
+normal = { family = "GeistMono Nerd Font", style = "Regular" } 
+
+[colors.primary]
+background = "#110d2b"
