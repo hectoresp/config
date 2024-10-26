@@ -214,11 +214,8 @@ exec i3-config-wizard
 
 exec_always feh --bg-fill /home/hector/Imágenes/wallpaper2.png
 exec_always setxkbmap es
-#exec_always oneko
-exec_always xbanish
 exec_always picom --config /home/$USER/.config/picom/picom.conf
 exec_always /home/$USER/.config/polybar/launch.sh
-bindsym $mod+Shift+x exec /home/$USER/.config/scripts/lock
 
 bindsym $mod+f exec firefox
 bindsym $mod+s exec subl3 
@@ -237,6 +234,5 @@ for_window [class="Yad" title="yad-calendar"] floating enable
 for_window [class="Nm-connection-editor"] floating enable
 
 gaps inner 20
-
 
 default_border pixel 0
